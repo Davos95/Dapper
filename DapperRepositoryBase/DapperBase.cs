@@ -9,7 +9,7 @@ using static Dapper.SqlMapper;
 
 namespace DapperRepositoryBase
 {
-    internal class DapperBase : IDisposable
+    public class DapperBase : IDisposable
     {
         private string ConnectionString;
         private IDbConnection _connection;
